@@ -1,0 +1,22 @@
+# Python virtual environments
+.venv/
+venv/
+venv311/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Sensitive Streamlit Secrets
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
