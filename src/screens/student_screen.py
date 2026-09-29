@@ -144,14 +144,14 @@ def student_screen():
     if show_registration and photo_source:
         with st.container(border=True):
             st.header('Register New Profile')
-            new_name = st.text_input("Enter your name", placeholder='E.g. Hamza Rizvi')
+            new_name = st.text_input("Enter your name", placeholder='E.g. Shiv Pratap')
 
             st.subheader('Optional : Voice Enrollment')
             st.info("Enroll your voice for voice-only attendance verification.")
 
             audio_data = None
             try:
-                audio_data = st.audio_input('Record a short phrase like "I am present, my name is Alex."')
+                audio_data = st.audio_input('Record a short phrase like "I am present, my name is Shiv."')
             except Exception:
                 st.error('Audio capture not available in this browser.')
 
