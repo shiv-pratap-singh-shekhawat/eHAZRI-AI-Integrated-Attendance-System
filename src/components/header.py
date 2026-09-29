@@ -26,6 +26,6 @@ def header_dashboard():
 def footer_dashboard():
     st.markdown("""
         <div style="text-align: center; margin-top: 50px; padding: 20px; color: #64748b; font-size: 0.85rem;">
-            eHAZRI AI &copy; 2026 &bull; Making Attendance Faster Using AI
+            eHAZRI &copy; 2026 &bull; Making Attendance Faster Using AI
         </div>
     """, unsafe_allow_html=True)
