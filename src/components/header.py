@@ -18,7 +18,7 @@ def header_dashboard():
     st.markdown(f"""
         <div style="display:flex; align-items:center; justify-content:center; gap:10px">
             <img src='{logo_url}' style='height:85px;' alt='Logo' />
-            <h2 style='text-align:left; color:#5865F2'>SNAP<br/>CLASS</h2>
+            <h2 style='text-align:left; color:#5865F2'>eHAZRI</h2>
         </div>
     """, unsafe_allow_html=True)
 
@@ -26,6 +26,6 @@ def header_dashboard():
 def footer_dashboard():
     st.markdown("""
         <div style="text-align: center; margin-top: 50px; padding: 20px; color: #64748b; font-size: 0.85rem;">
-            SnapClass AI &copy; 2026 &bull; Making Attendance Faster Using AI
+            eHAZRI AI &copy; 2026 &bull; Making Attendance Faster Using AI
         </div>
     """, unsafe_allow_html=True)
