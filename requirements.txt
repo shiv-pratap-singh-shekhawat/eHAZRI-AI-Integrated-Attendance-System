@@ -1,3 +1,5 @@
+streamlit
+
 # Core Utilities
 numpy
 pandas
@@ -6,9 +8,6 @@ pillow
 segno
 bcrypt
 supabase
-
-# Streamlit
-streamlit
 
 # Audio & Voice Processing
 librosa
