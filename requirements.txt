@@ -7,7 +7,7 @@ scikit-learn
 pillow
 segno
 bcrypt
-
+supabse
 
 
 # Audio & Voice Processing
