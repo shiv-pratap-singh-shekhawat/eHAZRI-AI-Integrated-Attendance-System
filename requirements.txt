@@ -15,12 +15,10 @@ librosa
 sound
 
 torch
-webrtcvad-wheels; sys_platform == 'win32'
-webrtcvad; sys_platform != 'win32'
+webrtcvad-wheels;
 resemblyzer
 
 # Face Recognition Models & Dlib
-dlib-bin; sys_platform == 'win32'
-dlib; sys_platform != 'win32'
+dlib-bin;
 git+https://github.com/ageitgey/face_recognition_models
 setuptools<
